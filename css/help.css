@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-bar {
+    background-color: #1877f2;
+}
+
+.help-center-bar {
+    background-color: #eeeff0;
+    border-bottom: 1px solid #e9dfdf;
+    padding: 5px 20px;
+    margin-left: 10px; /* Space between the two nav bars */
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.facebook-logo {
+    font-size: 2em; /* Larger font size for the Facebook logo */
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.help-center-bar h1 {
+    color: #333;
+    font-size: 1em; /* Smaller font size for Help Center */
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    font-size: 1.25em;
+    color: #2c2c2c;
+    margin-top: 0px;
+}
+
+main p {
+    color: #8a8888;
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+
+.video-link {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #1877f2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.video-container {
+    width: 40%; /* Adjust the width of the video container */
+    margin-bottom: 20px;
+}
+
+video {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="number"],
+input[type="text"] {
+    width: 100%; /* Make the input fields take up full width */
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.note {
+    font-size: 0.9em;
+    color: #999;
+    margin-bottom: 15px;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submit-button {
+    background-color: #1877f2; /* Blue color for the button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px; /* Increase padding for a better touch target */
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em; /* Smaller font size for the button */
+    margin-top: 0px; /* Space between note and button */
+}
+
+.submit-button:hover {
+    background-color: #155ab6;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    .help-center-bar {
+        margin-left: 0;
+    }
+
+    .container {
+        margin: 15px auto;
+        padding: 15px;
+    }
+
+    .video-container {
+        width: 100%;
+    }
+
+    .button-container {
+        justify-content: center;
+    }
+
+    .submit-button {
+        width: 100%;
+        padding: 10px;
+        font-size: 1em;
+    }
+}

